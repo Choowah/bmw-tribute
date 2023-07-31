@@ -9,6 +9,8 @@ import E90 from "./E90";
 import F30 from "./F30";
 import G20 from "./G20";
 
+import e21HoverImage from "/public/tg_topgear/tg_e21.webp";
+
 const HoverList = () => {
     const mainContent = useRef(null)
     const [model, setModel] = useState(null)
@@ -38,7 +40,7 @@ const HoverList = () => {
                                    <img
                                    className="absolute h-[30vh] left-[10vw] top-[-5vh] opacity-0 z-10
                                           group-hover:opacity-100 transition duration-500"
-                                   src="../public/tg_topgear/tg_e21.webp"
+                                   src={e21HoverImage}
                                    alt=""
                                    />
                                    <span className="absolute pt-1 text-[#afafaf] left-0 text-xs">1975-1982</span>
