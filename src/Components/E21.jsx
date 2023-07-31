@@ -1,9 +1,13 @@
+import e21Front from "public/drawings/e21_front.webp"
+import e21Back from "public/drawings/e21_back.webp"
+import e21Collage from "public/collage/E21_collage.webp"
+
 const E21 = () => {
     return (
         <div>
-            <img className="my-[4vw]" src="../src/assets/collage/E21_collage.webp" alt="" />
+            <img className="my-[4vw]" src={e21Collage} alt="" />
             <div className="bg-white text-black grid grid-cols-2 grid-rows-2 gap-[2vw] justify-items-center items-center mx-[4vw] p-[4vw] rounded-xl">
-                <img className="h-[400px] max-w-fit" src="../src/assets/drawings/e21_front.webp" alt="" />
+                <img className="h-[400px] max-w-fit" src={e21Front} alt="" />
                 <div>
                     <h2 className="font-bold">1st Generation</h2>
                     <h2 className="font-bold">Built: 1975-1983</h2>
@@ -20,7 +24,7 @@ const E21 = () => {
                     <p>The first-generation BMW 3 Series included one innovation that was to become a standard feature in all BMW models: a dashboard angled toward the driver.</p>
                     <p>Other design details – such as the short overhang at the front, the double-kidney grille, the crease line along the body, the twin headlamps found on several models, and the Hofmeister kink at the C-pillar – have lived on as stylistic features in subsequent generations.</p>
                 </div>
-                <img className="h-[400px] max-w-fit" src="../src/assets/drawings/e21_back.webp" alt="" />
+                <img className="h-[400px] max-w-fit" src={e21Back} alt="" />
             </div>
         </div>
     );

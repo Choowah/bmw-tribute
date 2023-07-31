@@ -10,6 +10,12 @@ import F30 from "./F30";
 import G20 from "./G20";
 
 import e21HoverImage from "/public/tg_topgear/tg_e21.webp";
+import e30HoverImage from "/public/tg_topgear/tg_e30.webp";
+import e36HoverImage from "/public/tg_topgear/tg_e36.webp";
+import e46HoverImage from "/public/tg_topgear/tg_e46.webp";
+import e90HoverImage from "/public/tg_topgear/tg_e90.webp";
+import f30HoverImage from "/public/tg_topgear/tg_f30.webp";
+import g20HoverImage from "/public/tg_topgear/tg_g20.webp";
 
 const HoverList = () => {
     const mainContent = useRef(null)
@@ -53,7 +59,7 @@ const HoverList = () => {
                                    <img
                                    className="absolute h-[30vh] left-[20vw] top-[-5vh] opacity-0 z-10
                                           group-hover:opacity-100 transition duration-500"
-                                   src="../src/assets/tg_topgear/tg_e30.webp"
+                                   src={e30HoverImage}
                                    alt=""
                                    />
                                    <span className="absolute pt-1 text-[#afafaf] left-0 text-xs">1982-1991</span>
@@ -66,7 +72,7 @@ const HoverList = () => {
                                    <img
                                    className="absolute h-[30vh] left-[12vw] top-[-5vh] opacity-0 z-10
                                           group-hover:opacity-100 transition duration-500"
-                                   src="../src/assets/tg_topgear/tg_e36.webp"
+                                   src={e36HoverImage}
                                    alt=""
                                    />
                                    <span className="absolute pt-1 text-[#afafaf] left-0 text-xs">1991-1998</span>
@@ -79,7 +85,7 @@ const HoverList = () => {
                                    <img
                                    className="absolute h-[30vh] left-[17vw] top-[-5vh] opacity-0 z-10
                                           group-hover:opacity-100 transition duration-500"
-                                   src="../src/assets/tg_topgear/tg_e46.webp"
+                                   src={e46HoverImage}
                                    alt=""
                                    />
                                    <span className="absolute pt-1 text-[#afafaf] left-0 text-xs">1998-2005</span>
@@ -92,7 +98,7 @@ const HoverList = () => {
                                    <img
                                    className="absolute h-[30vh] left-[10vw] top-[-5vh] opacity-0 z-10
                                           group-hover:opacity-100 transition duration-500"
-                                   src="../src/assets/tg_topgear/tg_e90.webp"
+                                   src={e90HoverImage}
                                    alt=""
                                    />
                                    <span className="absolute pt-1 text-[#afafaf] left-0 text-xs">2005-2015</span>
@@ -105,7 +111,7 @@ const HoverList = () => {
                                    <img
                                    className="absolute h-[30vh] left-[20vw] top-[-5vh] opacity-0 z-10
                                           group-hover:opacity-100 transition duration-500"
-                                   src="../src/assets/tg_topgear/tg_f30.webp"
+                                   src={f30HoverImage}
                                    alt=""
                                    />
                                    <span className="absolute pt-1 text-[#afafaf] left-0 text-xs">2012-2018</span>
@@ -118,7 +124,7 @@ const HoverList = () => {
                                    <img
                                    className="absolute h-[30vh] left-[10vw] top-[-5vh] opacity-0 z-10
                                           group-hover:opacity-100 transition duration-500"
-                                   src="../src/assets/tg_topgear/tg_g20.webp"
+                                   src={g20HoverImage}
                                    alt=""
                                    />
                                    <span className="absolute pt-1 text-[#afafaf] left-0 text-xs">2019-</span>
