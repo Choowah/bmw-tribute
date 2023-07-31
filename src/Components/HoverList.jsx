@@ -38,7 +38,7 @@ const HoverList = () => {
                                    <img
                                    className="absolute h-[30vh] left-[10vw] top-[-5vh] opacity-0 z-10
                                           group-hover:opacity-100 transition duration-500"
-                                   src="../src/assets/tg_topgear/tg_e21.webp"
+                                   src="../public/tg_topgear/tg_e21.webp"
                                    alt=""
                                    />
                                    <span className="absolute pt-1 text-[#afafaf] left-0 text-xs">1975-1982</span>
