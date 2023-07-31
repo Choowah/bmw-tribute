@@ -1,6 +1,6 @@
-import e21Front from "public/drawings/e21_front.webp"
-import e21Back from "public/drawings/e21_back.webp"
-import e21Collage from "public/collage/E21_collage.webp"
+import e21Front from "/public/drawings/e21_front.webp"
+import e21Back from "/public/drawings/e21_back.webp"
+import e21Collage from "/public/collage/E21_collage.webp"
 
 const E21 = () => {
     return (
