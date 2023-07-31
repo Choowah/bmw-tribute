@@ -1,9 +1,13 @@
+import g20Front from "/public/drawings/g20_front.webp"
+import g20Back from "/public/drawings/g20_back.webp"
+import g20Collage from "/public/collage/G20_collage.webp"
+
 const G20 = () => {
     return (
         <div>
-            <img className="my-[4vw]" src="../src/assets/collage/G20_collage.webp" alt="" />
+            <img className="my-[4vw]" src={g20Collage} alt="" />
             <div className="bg-white text-black grid grid-cols-2 grid-rows-2 gap-[2vw] justify-items-center items-center mx-[4vw] p-[4vw] rounded-xl">
-                <img className="h-[400px] max-w-fit" src="../src/assets/drawings/g20_front.webp" alt="" />
+                <img className="h-[400px] max-w-fit" src={g20Front} alt="" />
                 <div>
                     <h2 className="font-bold">7th Generation</h2>
                     <h2 className="font-bold">Built: 2018 onwards</h2>
@@ -13,7 +17,7 @@ const G20 = () => {
                     <p>What, then, does the future hold for the BMW 3 Series? This newest generation is ushering in a new design language for BMW. A striking feature is a kidney grille that is wider than its predecessor and visually integrated in the design.</p>
                     <p>At the same time, the seventh generation will uphold the design tradition of the earlier BMW 3 Series models. As recognizable elements like the short overhangs, twin headlamps, and crease line clearly show – this is definitely a 3 Series!</p>
                 </div>
-                <img className="h-[400px] max-w-fit" src="../src/assets/drawings/g20_back.webp" alt="" />
+                <img className="h-[400px] max-w-fit" src={g20Back} alt="" />
             </div>
         </div>
     );

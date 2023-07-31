@@ -1,9 +1,13 @@
+import f30Front from "/public/drawings/f30_front.webp"
+import f30Back from "/public/drawings/f30_back.webp"
+import f30Collage from "/public/collage/F30_collage.webp"
+
 const F30 = () => {
     return (
         <div>
-            <img className="my-[4vw]" src="../src/assets/collage/F30_collage.webp" alt="" />
+            <img className="my-[4vw]" src={f30Collage} alt="" />
             <div className="bg-white text-black grid grid-cols-2 grid-rows-2 gap-[2vw] justify-items-center items-center mx-[4vw] p-[4vw] rounded-xl">
-                <img className="h-[400px] max-w-fit" src="../src/assets/drawings/f30_front.webp" alt="" />
+                <img className="h-[400px] max-w-fit" src={f30Front} alt="" />
                 <div>
                     <h2 className="font-bold">6th Generation</h2>
                     <h2 className="font-bold">Built: 2011-2019</h2>
@@ -20,7 +24,7 @@ const F30 = () => {
                     <h2 className="my-[2vh] font-bold">Two of the 3 Series Models Renamed as 4 Series</h2>
                     <p>Spinning off the coupé and convertible models to create a new series was something that had already been a topic of discussion 20 years ago, at the time of the third-generation BMW 3 Series. With the sixth generation it became reality. While the Sedan, Touring, and Gran Turismo remained under the BMW 3 Series label, the Convertible, Coupé, and the new Gran Coupé formed their own family: the BMW 4 Series.</p>
                 </div>
-                <img className="h-[400px] max-w-fit" src="../src/assets/drawings/f30_back.webp" alt="" />
+                <img className="h-[400px] max-w-fit" src={f30Back} alt="" />
             </div>
         </div>
     );

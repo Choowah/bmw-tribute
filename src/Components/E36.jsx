@@ -1,9 +1,13 @@
+import e36Front from "/public/drawings/e36_front.webp"
+import e36Back from "/public/drawings/e36_back.webp"
+import e36Collage from "/public/collage/E36_collage.webp"
+
 const E36 = () => {
     return (
         <div>
-            <img className="my-[4vw]" src="../src/assets/collage/E36_collage.webp" alt="" />
+            <img className="my-[4vw]" src={e36Collage} alt="" />
             <div className="bg-white text-black grid grid-cols-2 grid-rows-2 gap-[2vw] justify-items-center items-center mx-[4vw] p-[4vw] rounded-xl">
-                <img className="h-[400px] max-w-fit" src="../src/assets/drawings/e36_front.webp" alt="" />
+                <img className="h-[400px] max-w-fit" src={e36Front} alt="" />
                 <div>
                     <h2 className="font-bold">3rd Generation</h2>
                     <h2 className="font-bold">Built: 1990-2000</h2>
@@ -18,7 +22,7 @@ const E36 = () => {
                     <h2 className="my-[2vh] font-bold">Compact Hatchback</h2>
                     <p>The BMW 3 Series Compact represented something brand new in the range. This new variant was launched in March 1994 as a more compact three-door hatchback option. While the front of the vehicle was no different from the other models, the rear end had a unique design and was 22.5 cm shorter than the Coupé. The BMW 3 Series Compact was well received, moving from a standing start to become the model with the third-highest sales, behind the Sedan and the Coupé.</p>
                 </div>
-                <img className="h-[400px] max-w-fit" src="../src/assets/drawings/e36_back.webp" alt="" />
+                <img className="h-[400px] max-w-fit" src={e36Back} alt="" />
             </div>
         </div>
     );

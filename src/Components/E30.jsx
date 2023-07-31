@@ -1,9 +1,13 @@
+import e30Front from "/public/drawings/e30_front.webp"
+import e30Back from "/public/drawings/e30_back.webp"
+import e30Collage from "/public/collage/E30_collage.webp"
+
 const E30 = () => {
     return (
         <div>
-            <img className="my-[4vw]" src="../src/assets/collage/E30_collage.webp" alt="" />
+            <img className="my-[4vw]" src={e30Collage} alt="" />
             <div className="bg-white text-black grid grid-cols-2 grid-rows-2 gap-[2vw] justify-items-center items-center mx-[4vw] p-[4vw] rounded-xl">
-                <img className="h-[400px] max-w-fit" src="../src/assets/drawings/e30_front.webp" alt="" />
+                <img className="h-[400px] max-w-fit" src={e30Front} alt="" />
                 <div>
                     <h2 className="font-bold">2nd Generation</h2>
                     <h2 className="font-bold">Built: 1982-1994</h2>
@@ -19,7 +23,7 @@ const E30 = () => {
                     <h2 className="my-[2vh] font-bold">The Touring “Hobby” Project</h2>
                     <p>Having started life as a prototype built by BMW employee Max Reisböck, the first Touring was added to the series in 1987. Reisböck wanted to take his family on vacation but found that the trunk of the BMW 3 Series sedan with its notchback design lacked the space required. As a trained bodywork engineer, Reisböck cut the C-column and shifted it to the rear, thereby creating the first-ever station wagon offered by BMW. </p>
                 </div>
-                <img className="h-[400px] max-w-fit" src="../src/assets/drawings/e30_back.webp" alt="" />
+                <img className="h-[400px] max-w-fit" src={e30Back} alt="" />
             </div>
         </div>
     );

@@ -1,9 +1,13 @@
+import e46Front from "/public/drawings/e46_front.webp"
+import e46Back from "/public/drawings/e46_back.webp"
+import e46Collage from "/public/collage/E46_collage.webp"
+
 const E46 = () => {
     return (
         <div>
-            <img className="my-[4vw]" src="../src/assets/collage/E46_collage.webp" alt="" />
+            <img className="my-[4vw]" src={e46Collage} alt="" />
             <div className="bg-white text-black grid grid-cols-2 grid-rows-2 gap-[2vw] justify-items-center items-center mx-[4vw] p-[4vw] rounded-xl">
-                <img className="h-[400px] max-w-fit" src="../src/assets/drawings/e46_front.webp" alt="" />
+                <img className="h-[400px] max-w-fit" src={e46Front} alt="" />
                 <div>
                     <h2 className="font-bold">4th Generation</h2>
                     <h2 className="font-bold">Built: 1997-2006</h2>
@@ -18,7 +22,7 @@ const E46 = () => {
                     <p>Seen from the side, the profile of the roof was given a more pronounced curve. This created more headroom for the passengers in back.</p>
                     <p>The new design changes were a success: With 3,266,885 units sold, the fourth generation of the BMW 3 Series is the top-selling BMW model of all time.</p>
                 </div>
-                <img className="h-[400px] max-w-fit" src="../src/assets/drawings/e46_back.webp" alt="" />
+                <img className="h-[400px] max-w-fit" src={e46Back} alt="" />
             </div>
         </div>
     );
