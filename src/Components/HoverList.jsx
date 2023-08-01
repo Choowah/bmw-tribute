@@ -59,7 +59,7 @@ const HoverList = () => {
                                                         src={e21HoverImage}
                                                         alt=""
                                                  />
-                                                 <span className="absolute pt-1 text-[#afafaf] left-0 text-xs">1975-1982</span>
+                                                 <span className="absolute pt-1 text-[#afafaf] left-0 text-xs">1975-1983</span>
                                                  E21
                                                  <span className="pl-5 opacity-0 z-10 group-hover:opacity-100 transition duration-500">"The OG"</span>
                                           </a>
@@ -72,7 +72,7 @@ const HoverList = () => {
                                                         src={e30HoverImage}
                                                         alt=""
                                                  />
-                                                 <span className="absolute pt-1 text-[#afafaf] left-0 text-xs">1982-1991</span>
+                                                 <span className="absolute pt-1 text-[#afafaf] left-0 text-xs">1982-1994</span>
                                                  E30
                                                  <span className="pl-5 opacity-0 z-10 group-hover:opacity-100 transition duration-500">"Racing Roots"</span>
                                           </a>
@@ -85,7 +85,7 @@ const HoverList = () => {
                                                         src={e36HoverImage}
                                                         alt=""
                                                  />
-                                                 <span className="absolute pt-1 text-[#afafaf] left-0 text-xs">1991-1998</span>
+                                                 <span className="absolute pt-1 text-[#afafaf] left-0 text-xs">1990-2000</span>
                                                  E36
                                                  <span className="pl-5 opacity-0 z-10 group-hover:opacity-100 transition duration-500">"Cult Classic"</span>
                                           </a>
@@ -98,7 +98,7 @@ const HoverList = () => {
                                                         src={e46HoverImage}
                                                         alt=""
                                                  />
-                                                 <span className="absolute pt-1 text-[#afafaf] left-0 text-xs">1998-2005</span>
+                                                 <span className="absolute pt-1 text-[#afafaf] left-0 text-xs">1997-2006</span>
                                                  E46
                                                  <span className="pl-5 opacity-0 z-10 group-hover:opacity-100 transition duration-500">"Most Wanted"</span>
                                           </a>
@@ -111,7 +111,7 @@ const HoverList = () => {
                                                         src={e90HoverImage}
                                                         alt=""
                                                  />
-                                                 <span className="absolute pt-1 text-[#afafaf] left-0 text-xs">2005-2015</span>
+                                                 <span className="absolute pt-1 text-[#afafaf] left-0 text-xs">2005-2013</span>
                                                  E90
                                                  <span className="pl-5 opacity-0 z-10 group-hover:opacity-100 transition duration-500">"2006 Car of the Year"</span>
                                           </a>
@@ -124,7 +124,7 @@ const HoverList = () => {
                                                         src={f30HoverImage}
                                                         alt=""
                                                  />
-                                                 <span className="absolute pt-1 text-[#afafaf] left-0 text-xs">2012-2018</span>
+                                                 <span className="absolute pt-1 text-[#afafaf] left-0 text-xs">2011-2019</span>
                                                  F30
                                                  <span className="pl-5 opacity-0 z-10 group-hover:opacity-100 transition duration-500">"Gran Turismo"</span>
                                           </a>
@@ -137,7 +137,7 @@ const HoverList = () => {
                                                         src={g20HoverImage}
                                                         alt=""
                                                  />
-                                                 <span className="absolute pt-1 text-[#afafaf] left-0 text-xs">2019-</span>
+                                                 <span className="absolute pt-1 text-[#afafaf] left-0 text-xs">2018-</span>
                                                  G20
                                                  <span className="pl-5 opacity-0 z-10 group-hover:opacity-100 transition duration-500">"New Kid on The Block"</span>
                                           </a>
